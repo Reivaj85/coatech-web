@@ -125,10 +125,10 @@ const Home = () => {
             <Row className="text-center">
               <Col lg={8} className="mx-auto">
                 <h2 className="display-5 fw-bold text-white mb-4" data-aos="fade-up">
-                  Ready to Start Your Project?
+                  {t('cta.title')}
                 </h2>
                 <p className="lead text-white-50 mb-4" data-aos="fade-up" data-aos-delay="100">
-                  Let&apos;s work together to bring your ideas to life with cutting-edge technology solutions.
+                  {t('cta.subtitle')}
                 </p>
                 <div className="d-flex flex-column flex-md-row gap-3 justify-content-center" data-aos="fade-up" data-aos-delay="200">
                   <Button 

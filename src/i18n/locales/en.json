@@ -136,5 +136,11 @@
     "previous": "Previous",
     "viewAll": "View All",
     "backToTop": "Back to Top"
+  },
+  "cta": {
+    "title": "Ready to Start Your Project?",
+    "subtitle": "Let's work together to bring your ideas to life with cutting-edge technology solutions.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
   }
 }

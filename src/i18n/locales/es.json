@@ -136,5 +136,11 @@
     "previous": "Anterior",
     "viewAll": "Ver Todo",
     "backToTop": "Volver Arriba"
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar tu Proyecto?",
+    "subtitle": "Trabajemos juntos para dar vida a tus ideas con soluciones tecnológicas de vanguardia.",
+    "getStarted": "Comenzar",
+    "learnMore": "Aprender Más"
   }
 }
