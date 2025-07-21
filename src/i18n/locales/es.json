@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "Plataforma SaaS #1 en 2024",
+    "title": "Conectamos",
+    "titleAccent1": "Oportunidades",
+    "titleSecond": "Automatizamos",
+    "titleAccent2": "Horizontes",
+    "subtitle": "Acelere el crecimiento con nuestra plataforma impulsada por IA que combina",
+    "subtitleBold": "automatización, análisis e innovación",
+    "subtitleEnd": "en una experiencia perfecta.",
+    "ctaPrimary": "Comenzar Prueba Gratuita",
+    "ctaSecondary": "Ver Demostración",
+    "metrics": {
+      "roi": {
+        "value": "300%",
+        "label": "Aumento de ROI"
+      },
+      "speed": {
+        "value": "10x",
+        "label": "Procesamiento Más Rápido"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "SLA de Disponibilidad"
+      }
+    },
+    "features": {
+      "ai": "Impulsado por IA",
+      "fast": "Ultrarrápido",
+      "secure": "Seguro",
+      "analytics": "Análisis"
+    },
+    "socialProof": "Confiado por líderes de la industria",
+    "scrollText": "Descubrir Más",
+    "dashboard": {
+      "title": "Panel de Análisis"
+    }
+  },
+  "about": {
+    "title": "Acerca de CoaTech",
+    "subtitle": "Somos una empresa de tecnología especializada en desarrollo web moderno e innovación digital",
+    "description": "Con años de experiencia en la industria, proporcionamos soluciones de vanguardia que ayudan a las empresas a crecer y tener éxito en el mundo digital.",
+    "mission": "Nuestra Misión",
+    "missionText": "Entregar soluciones tecnológicas excepcionales que impulsen el crecimiento empresarial y la innovación.",
+    "vision": "Nuestra Visión",
+    "visionText": "Ser el socio tecnológico líder para empresas en todo el mundo."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Ofrecemos una amplia gama de soluciones tecnológicas",
+    "webDev": {
+      "title": "Desarrollo Web",
+      "description": "Aplicaciones web personalizadas construidas con tecnologías y frameworks modernos"
+    },
+    "mobileApp": {
+      "title": "Apps Móviles",
+      "description": "Aplicaciones móviles nativas y multiplataforma para iOS y Android"
+    },
+    "consulting": {
+      "title": "Consultoría Tech",
+      "description": "Consultoría tecnológica estratégica para ayudar a su empresa a tomar decisiones informadas"
+    },
+    "uiux": {
+      "title": "Diseño UI/UX",
+      "description": "Interfaces de usuario hermosas e intuitivas que mejoran la experiencia del usuario"
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "Procesos de desarrollo y despliegue optimizados para entregas más rápidas"
+    },
+    "support": {
+      "title": "Soporte y Mantenimiento",
+      "description": "Servicios de soporte y mantenimiento continuo para mantener sus sistemas funcionando sin problemas"
+    }
+  },
+  "portfolio": {
+    "title": "Nuestro Portafolio",
+    "subtitle": "Echa un vistazo a algunos de nuestros proyectos recientes",
+    "viewProject": "Ver Proyecto"
+  },
+  "blog": {
+    "title": "Últimas Publicaciones del Blog",
+    "subtitle": "Mantente actualizado con las últimas tendencias tecnológicas y perspectivas",
+    "readMore": "Leer Más",
+    "publishedOn": "Publicado el"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "¡Nos encantaría saber de ti. Envíanos un mensaje!",
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Tu Email",
+      "subject": "Asunto",
+      "message": "Tu Mensaje",
+      "send": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado exitosamente!",
+      "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+    },
+    "info": {
+      "address": "123 Calle Tech, Ciudad Innovación, CI 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@coatech.com",
+      "hours": "Lun - Vie: 9:00 AM - 6:00 PM"
+    }
+  },
+  "footer": {
+    "description": "CoaTech es una empresa líder en tecnología que proporciona soluciones digitales innovadoras para empresas en todo el mundo.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "followUs": "Síguenos",
+    "copyright": "© 2025 CoaTech. Todos los derechos reservados."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "retry": "Intentar de Nuevo",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Agregar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "viewAll": "Ver Todo",
+    "backToTop": "Volver Arriba"
+  }
+}

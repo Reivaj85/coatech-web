@@ -1,0 +1,160 @@
+/* Design System Input Atoms */
+.ds-input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: all 0.3s ease;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Input Variants */
+.ds-input--default {
+  background: white;
+  border: 1px solid #ced4da;
+  color: #343a40;
+}
+
+.ds-input--default:focus {
+  border-color: #40E0D0;
+  box-shadow: 0 0 0 3px rgba(64, 224, 208, 0.1);
+}
+
+.ds-input--outline {
+  background: transparent;
+  border: 2px solid #40E0D0;
+  color: #343a40;
+}
+
+.ds-input--outline:focus {
+  border-color: #40E0D0;
+  box-shadow: 0 0 0 3px rgba(64, 224, 208, 0.1);
+}
+
+.ds-input--filled {
+  background: #f8f9fa;
+  border: 1px solid transparent;
+  color: #343a40;
+}
+
+.ds-input--filled:focus {
+  background: white;
+  border-color: #40E0D0;
+  box-shadow: 0 0 0 3px rgba(64, 224, 208, 0.1);
+}
+
+.ds-input--underline {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ced4da;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ds-input--underline:focus {
+  border-bottom-color: #40E0D0;
+  box-shadow: none;
+}
+
+/* Size Variants */
+.ds-input--small {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.ds-input--large {
+  padding: 16px 20px;
+  font-size: 18px;
+}
+
+/* State Variants */
+.ds-input--error {
+  border-color: #dc3545;
+}
+
+.ds-input--error:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
+}
+
+.ds-input--success {
+  border-color: #28a745;
+}
+
+.ds-input--success:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
+}
+
+.ds-input--disabled {
+  background: #e9ecef;
+  color: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Placeholder styling */
+.ds-input::placeholder {
+  color: #6c757d;
+  opacity: 0.7;
+}
+
+/* Textarea specific styles */
+.ds-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Select specific styles */
+.ds-select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+  padding-right: 40px;
+  appearance: none;
+}
+
+.ds-select:focus {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%2340E0D0' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E");
+}
+
+/* Hover states */
+.ds-input:hover:not(:disabled):not(:focus) {
+  border-color: #adb5bd;
+}
+
+.ds-input--outline:hover:not(:disabled):not(:focus) {
+  border-color: #40E0D0;
+  opacity: 0.8;
+}
+
+/* Focus within (for input groups) */
+.ds-input:focus-within {
+  border-color: #40E0D0;
+  box-shadow: 0 0 0 3px rgba(64, 224, 208, 0.1);
+}
+
+/* Invalid state */
+.ds-input:invalid {
+  border-color: #dc3545;
+}
+
+/* Required indicator */
+.ds-input:required::after {
+  content: "*";
+  color: #dc3545;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ds-input--large {
+    padding: 14px 16px;
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+}

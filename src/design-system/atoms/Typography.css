@@ -1,0 +1,161 @@
+/* Design System Typography Atoms */
+.ds-typography {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+}
+
+/* Typography Variants */
+.ds-typography--display {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.ds-typography--h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.ds-typography--h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.ds-typography--h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.ds-typography--h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.ds-typography--h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.ds-typography--h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.ds-typography--body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.ds-typography--lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.ds-typography--caption {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.ds-typography--small {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* Size Variants */
+.ds-typography--small {
+  font-size: 0.875rem;
+}
+
+.ds-typography--large {
+  font-size: 1.125rem;
+}
+
+/* Weight Variants */
+.ds-typography--weight-light {
+  font-weight: 300;
+}
+
+.ds-typography--weight-normal {
+  font-weight: 400;
+}
+
+.ds-typography--weight-medium {
+  font-weight: 500;
+}
+
+.ds-typography--weight-semibold {
+  font-weight: 600;
+}
+
+.ds-typography--weight-bold {
+  font-weight: 700;
+}
+
+.ds-typography--weight-extrabold {
+  font-weight: 800;
+}
+
+/* Color Variants */
+.ds-typography--color-primary {
+  color: #343a40;
+}
+
+.ds-typography--color-secondary {
+  color: #6c757d;
+}
+
+.ds-typography--color-muted {
+  color: #6c757d;
+}
+
+.ds-typography--color-white {
+  color: white;
+}
+
+.ds-typography--color-brand {
+  color: #40E0D0;
+}
+
+.ds-typography--color-success {
+  color: #28a745;
+}
+
+.ds-typography--color-warning {
+  color: #ffc107;
+}
+
+.ds-typography--color-danger {
+  color: #dc3545;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ds-typography--display {
+    font-size: 2.5rem;
+  }
+  
+  .ds-typography--h1 {
+    font-size: 2rem;
+  }
+  
+  .ds-typography--h2 {
+    font-size: 1.75rem;
+  }
+  
+  .ds-typography--h3 {
+    font-size: 1.5rem;
+  }
+}

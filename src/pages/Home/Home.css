@@ -1,0 +1,51 @@
+.home-page {
+  padding-top: 80px; /* Account for fixed navbar */
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/assets/cta-pattern.svg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.cta-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Dark theme adjustments */
+body.dark .bg-light {
+  background-color: #1a1a1a !important;
+}
+
+body.dark .text-muted {
+  color: #ccc !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .home-page {
+    padding-top: 70px;
+  }
+  
+  .display-5 {
+    font-size: 2rem;
+  }
+  
+  .lead {
+    font-size: 1.1rem;
+  }
+}

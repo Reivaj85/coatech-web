@@ -1,0 +1,47 @@
+/* Design System FormGroup Molecules */
+.ds-form-group {
+  margin-bottom: 24px;
+}
+
+.ds-form-group__label {
+  display: block;
+  margin-bottom: 8px;
+  color: #343a40;
+}
+
+.ds-form-group__required {
+  color: #dc3545;
+  margin-left: 4px;
+}
+
+.ds-form-group__input {
+  position: relative;
+}
+
+.ds-form-group__helper {
+  margin-top: 6px;
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* Form group states */
+.ds-form-group--error .ds-form-group__label {
+  color: #dc3545;
+}
+
+.ds-form-group--success .ds-form-group__label {
+  color: #28a745;
+}
+
+/* Focus within state */
+.ds-form-group:focus-within .ds-form-group__label {
+  color: #40E0D0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ds-form-group {
+    margin-bottom: 20px;
+  }
+}

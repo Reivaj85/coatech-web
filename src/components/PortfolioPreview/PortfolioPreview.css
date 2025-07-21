@@ -1,0 +1,147 @@
+.portfolio-preview .portfolio-card {
+  transition: all 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.portfolio-preview .portfolio-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15) !important;
+}
+
+.portfolio-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-preview .portfolio-card:hover .portfolio-image {
+  transform: scale(1.1);
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 123, 255, 0.9), rgba(102, 126, 234, 0.9));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(2px);
+}
+
+.portfolio-preview .portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-overlay-content {
+  text-align: center;
+  padding: 1rem;
+  transform: translateY(20px);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-preview .portfolio-card:hover .portfolio-overlay-content {
+  transform: translateY(0);
+}
+
+.portfolio-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.portfolio-tags .badge {
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.portfolio-tags .badge:hover {
+  transform: scale(1.05);
+}
+
+body.dark .portfolio-preview .portfolio-card {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+body.dark .portfolio-preview .portfolio-card .card-title {
+  color: white;
+}
+
+body.dark .portfolio-preview .portfolio-card .text-muted {
+  color: #ccc !important;
+}
+
+/* Individual card gradient overlays */
+.portfolio-preview .portfolio-card:nth-child(1) .portfolio-overlay {
+  background: linear-gradient(135deg, rgba(0, 123, 255, 0.9), rgba(0, 86, 179, 0.9));
+}
+
+.portfolio-preview .portfolio-card:nth-child(2) .portfolio-overlay {
+  background: linear-gradient(135deg, rgba(40, 167, 69, 0.9), rgba(28, 117, 48, 0.9));
+}
+
+.portfolio-preview .portfolio-card:nth-child(3) .portfolio-overlay {
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.9), rgba(179, 135, 5, 0.9));
+}
+
+.portfolio-preview .portfolio-card:nth-child(4) .portfolio-overlay {
+  background: linear-gradient(135deg, rgba(220, 53, 69, 0.9), rgba(154, 37, 48, 0.9));
+}
+
+.portfolio-preview .portfolio-card:nth-child(5) .portfolio-overlay {
+  background: linear-gradient(135deg, rgba(111, 66, 193, 0.9), rgba(78, 46, 135, 0.9));
+}
+
+.portfolio-preview .portfolio-card:nth-child(6) .portfolio-overlay {
+  background: linear-gradient(135deg, rgba(32, 201, 151, 0.9), rgba(22, 141, 106, 0.9));
+}
+
+/* Loading animation for images */
+.portfolio-image {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .portfolio-image {
+    height: 180px;
+  }
+  
+  .portfolio-overlay-content {
+    padding: 0.75rem;
+  }
+  
+  .portfolio-overlay h5 {
+    font-size: 1rem;
+  }
+  
+  .portfolio-overlay p {
+    font-size: 0.85rem;
+  }
+}

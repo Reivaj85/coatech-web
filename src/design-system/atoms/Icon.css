@@ -1,0 +1,160 @@
+/* Design System Icon Atoms */
+.ds-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 1;
+  transition: all 0.3s ease;
+}
+
+/* Icon Sizes */
+.ds-icon--small {
+  font-size: 0.875rem; /* 14px */
+  width: 14px;
+  height: 14px;
+}
+
+.ds-icon--medium {
+  font-size: 1rem; /* 16px */
+  width: 16px;
+  height: 16px;
+}
+
+.ds-icon--large {
+  font-size: 1.25rem; /* 20px */
+  width: 20px;
+  height: 20px;
+}
+
+.ds-icon--xl {
+  font-size: 1.5rem; /* 24px */
+  width: 24px;
+  height: 24px;
+}
+
+.ds-icon--2xl {
+  font-size: 2rem; /* 32px */
+  width: 32px;
+  height: 32px;
+}
+
+.ds-icon--3xl {
+  font-size: 3rem; /* 48px */
+  width: 48px;
+  height: 48px;
+}
+
+/* Icon hover effects */
+.ds-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Icon in buttons */
+.ds-button .ds-icon {
+  margin-right: 8px;
+}
+
+.ds-button .ds-icon:last-child {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+.ds-button .ds-icon:only-child {
+  margin: 0;
+}
+
+/* Icon spacing in text */
+.ds-typography .ds-icon {
+  margin: 0 4px;
+}
+
+/* Clickable icons */
+.ds-icon[role="button"],
+.ds-icon.ds-icon--clickable {
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ds-icon[role="button"]:hover,
+.ds-icon.ds-icon--clickable:hover {
+  background-color: rgba(64, 224, 208, 0.1);
+  transform: scale(1.1);
+}
+
+.ds-icon[role="button"]:focus,
+.ds-icon.ds-icon--clickable:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(64, 224, 208, 0.3);
+}
+
+/* Icon states */
+.ds-icon--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ds-icon--disabled:hover {
+  transform: none;
+}
+
+/* Color utilities for icons */
+.ds-icon--primary {
+  color: #40E0D0;
+}
+
+.ds-icon--secondary {
+  color: #6c757d;
+}
+
+.ds-icon--success {
+  color: #28a745;
+}
+
+.ds-icon--warning {
+  color: #ffc107;
+}
+
+.ds-icon--danger {
+  color: #dc3545;
+}
+
+.ds-icon--white {
+  color: white;
+}
+
+.ds-icon--dark {
+  color: #343a40;
+}
+
+/* Spinning animation for loading icons */
+.ds-icon--spinning {
+  animation: ds-icon-spin 1s linear infinite;
+}
+
+@keyframes ds-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Icon badges (small icons as indicators) */
+.ds-icon--badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  font-size: 0.5rem;
+  background: #dc3545;
+  color: white;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

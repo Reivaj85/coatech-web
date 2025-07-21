@@ -1,0 +1,147 @@
+/* Design System Card Atoms */
+.ds-card {
+  border-radius: 12px;
+  background: white;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Card Variants */
+.ds-card--default {
+  border: 1px solid #e9ecef;
+}
+
+.ds-card--borderless {
+  border: none;
+}
+
+.ds-card--outline {
+  border: 2px solid #40E0D0;
+  background: transparent;
+}
+
+.ds-card--glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Elevation Levels */
+.ds-card--elevation-none {
+  box-shadow: none;
+}
+
+.ds-card--elevation-small {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ds-card--elevation-medium {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ds-card--elevation-large {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.ds-card--elevation-extra-large {
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Padding Variants */
+.ds-card--padding-none {
+  padding: 0;
+}
+
+.ds-card--padding-small {
+  padding: 12px;
+}
+
+.ds-card--padding-medium {
+  padding: 24px;
+}
+
+.ds-card--padding-large {
+  padding: 32px;
+}
+
+.ds-card--padding-extra-large {
+  padding: 48px;
+}
+
+/* Hover Effect */
+.ds-card--hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(64, 224, 208, 0.15);
+}
+
+.ds-card--hover {
+  cursor: pointer;
+}
+
+/* Card Section Components */
+.ds-card__header {
+  padding: 24px 24px 0 24px;
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+}
+
+.ds-card__body {
+  padding: 0 24px;
+  flex: 1;
+}
+
+.ds-card__footer {
+  padding: 16px 24px 24px 24px;
+  border-top: 1px solid #e9ecef;
+  margin-top: 24px;
+  padding-top: 16px;
+}
+
+/* When cards use padding variants, adjust section padding */
+.ds-card--padding-small .ds-card__header,
+.ds-card--padding-small .ds-card__body,
+.ds-card--padding-small .ds-card__footer {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.ds-card--padding-large .ds-card__header,
+.ds-card--padding-large .ds-card__body,
+.ds-card--padding-large .ds-card__footer {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.ds-card--padding-extra-large .ds-card__header,
+.ds-card--padding-extra-large .ds-card__body,
+.ds-card--padding-extra-large .ds-card__footer {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+/* Remove section padding when card has no padding */
+.ds-card--padding-none .ds-card__header,
+.ds-card--padding-none .ds-card__body,
+.ds-card--padding-none .ds-card__footer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Focus state for accessibility */
+.ds-card:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(64, 224, 208, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ds-card--padding-large {
+    padding: 20px;
+  }
+  
+  .ds-card--padding-extra-large {
+    padding: 24px;
+  }
+}

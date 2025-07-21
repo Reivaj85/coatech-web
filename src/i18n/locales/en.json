@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Rated #1 SaaS Platform 2024",
+    "title": "Connecting",
+    "titleAccent1": "Opportunities",
+    "titleSecond": "Automating",
+    "titleAccent2": "Horizons",
+    "subtitle": "Accelerate growth with our AI-powered platform that combines",
+    "subtitleBold": "automation, analytics, and innovation",
+    "subtitleEnd": "in one seamless experience.",
+    "ctaPrimary": "Start Free Trial",
+    "ctaSecondary": "Watch Demo",
+    "metrics": {
+      "roi": {
+        "value": "300%",
+        "label": "ROI Increase"
+      },
+      "speed": {
+        "value": "10x",
+        "label": "Faster Processing"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Uptime SLA"
+      }
+    },
+    "features": {
+      "ai": "AI Powered",
+      "fast": "Lightning Fast",
+      "secure": "Secure",
+      "analytics": "Analytics"
+    },
+    "socialProof": "Trusted by industry leaders",
+    "scrollText": "Discover More",
+    "dashboard": {
+      "title": "Analytics Dashboard"
+    }
+  },
+  "about": {
+    "title": "About CoaTech",
+    "subtitle": "We are a technology company specializing in modern web development and digital innovation",
+    "description": "With years of experience in the industry, we provide cutting-edge solutions that help businesses grow and succeed in the digital world.",
+    "mission": "Our Mission",
+    "missionText": "To deliver exceptional technology solutions that drive business growth and innovation.",
+    "vision": "Our Vision",
+    "visionText": "To be the leading technology partner for businesses worldwide."
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer a comprehensive range of technology solutions",
+    "webDev": {
+      "title": "Web Development",
+      "description": "Custom web applications built with modern technologies and frameworks"
+    },
+    "mobileApp": {
+      "title": "Mobile Apps",
+      "description": "Native and cross-platform mobile applications for iOS and Android"
+    },
+    "consulting": {
+      "title": "Tech Consulting",
+      "description": "Strategic technology consulting to help your business make informed decisions"
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "Beautiful and intuitive user interfaces that enhance user experience"
+    },
+    "devops": {
+      "title": "DevOps",
+      "description": "Streamlined development and deployment processes for faster delivery"
+    },
+    "support": {
+      "title": "Support & Maintenance",
+      "description": "Ongoing support and maintenance services to keep your systems running smoothly"
+    }
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "Check out some of our recent projects",
+    "viewProject": "View Project"
+  },
+  "blog": {
+    "title": "Latest Blog Posts",
+    "subtitle": "Stay updated with the latest technology trends and insights",
+    "readMore": "Read More",
+    "publishedOn": "Published on"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "We'd love to hear from you. Send us a message!",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Please try again."
+    },
+    "info": {
+      "address": "123 Tech Street, Innovation City, IC 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@coatech.com",
+      "hours": "Mon - Fri: 9:00 AM - 6:00 PM"
+    }
+  },
+  "footer": {
+    "description": "CoaTech is a leading technology company providing innovative digital solutions for businesses worldwide.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "followUs": "Follow Us",
+    "copyright": "© 2025 CoaTech. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "next": "Next",
+    "previous": "Previous",
+    "viewAll": "View All",
+    "backToTop": "Back to Top"
+  }
+}
